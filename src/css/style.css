@@ -318,13 +318,14 @@ a {
 }
 
 .about-title {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 550;
     line-height: 5vw;
 }
 
 .about-text {
     width: 90%;
+    font-size: 1.5vw;
 }
 
 .about-sentence {
