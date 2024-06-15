@@ -1,13 +1,5 @@
 import type { GatsbyConfig } from "gatsby"
 
-const adapter = require("gatsby-adapter-netlify")
-
-module.exports = {
-  adapter: adapter({
-    excludeDatastoreFromEngineFunction: false,
-  }),
-}
-
 
 const config: GatsbyConfig = {
   siteMetadata: {

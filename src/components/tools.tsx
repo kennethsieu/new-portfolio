@@ -1,7 +1,3 @@
-import React, { useState, useEffect, ChangeEvent, } from "react";
-import type { HeadFC, PageProps } from "gatsby"
-import '../css/style.css'
-
 import premiere from "../images/icons/premiere.png"
 import c from "../images/icons/c.png"
 import csharp from "../images/icons/csharp.png"
@@ -28,7 +24,7 @@ import unity from "../images/icons/unity.png"
 import unreal from "../images/icons/unreal.png"
 
 
-export const tools=  [ 
+const tools =  [ 
     {
         name: "Adobe Premiere",
         png: premiere,
@@ -218,3 +214,5 @@ export const tools=  [
         freq: false,
     }
 ]
+
+export default tools;

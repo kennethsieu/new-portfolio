@@ -200,4 +200,9 @@ interface Project {
     )
   }
 
+  const _ = {
+    ArtDisplay,
+    CSDisplay                            
+  }
 
+export default _;

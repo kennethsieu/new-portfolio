@@ -1,9 +1,9 @@
 import React, { useState, useEffect, ChangeEvent, } from "react";
 import type { HeadFC, PageProps } from "gatsby"
 import '../css/style.css'
-import { Search } from "./search";
-import { CSDisplay } from "./display";
-import { ArtDisplay } from "./display";
+import Search from "../components/search";
+import { CSDisplay } from "../components/display";
+import { ArtDisplay } from "../components/display";
 import { Link } from "gatsby"
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 

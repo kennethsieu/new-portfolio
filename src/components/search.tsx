@@ -1,15 +1,15 @@
 import React, { useState, useEffect, ChangeEvent, } from "react";
 import type { HeadFC, PageProps } from "gatsby"
 import '../css/style.css'
+import tools from "./tools"
 
-import {tools} from "./tools"
 
 
 /** 
  * I really should figure out how to use labels, for now an if statement will work 
  ***/
 
-export function Search() {
+export default function Search() {
     const [search, setSearch] = useState('')
     const [cs, setCs] = useState<boolean>(false)
     const [art, setArt] = useState<boolean>(false)
@@ -65,3 +65,4 @@ export function Search() {
         </React.Fragment>
     )    
 }
+
