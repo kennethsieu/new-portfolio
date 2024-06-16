@@ -3,14 +3,11 @@ import type { HeadFC, PageProps } from "gatsby"
 import '../css/style.css'
 
 //import images and rename them they will cause error lines :/
-import selfie from "../images/selfie.jpg"
-import code_c from "../images/code_color.png"
-import paint_c from "../images/paint_color.png"
-import tool_c from "../images/tool_color.png"
 import tmgif from "../images/tmgif.gif"
 import spy from "../images/spy.gif"
 import glade from "../images/glade.gif"
 import illwin from "../images/illwin.gif"
+import ras from "../images/ras.gif"
 
 
 export function CSDisplay() {
@@ -25,7 +22,9 @@ export function CSDisplay() {
             {SpyDisplay(spyfx)}
         
             <div className="glade" style={{ backgroundImage: `url(${glade})`}}></div>
-        {GladeDisplay(glad)}
+            {GladeDisplay(glad)}
+            {ProjectDisplay(heist)}
+            <img className = "project-img" src={ras}/>
         </React.Fragment>
     )
 }
@@ -68,7 +67,7 @@ const spyfx = {
 
 const glad = {
   name: "",
-  tdlr: ["The first game I ever made", "Card based battle system that is similar to Slay the Spire", "Pitched concept and thematic", "“Developed over a period of two months with three other people”"],
+  tdlr: ["The first game I ever made", "Card based battle system that is similar to Slay the Spire", "Pitched concept and thematic", "Developed over a period of two months with three other people"],
   summary: ["This is a game I pitched and developed over a period of eight weeks with three other people.", "I created the overall concept and programmed the card-based fighting system. Although it is a rough, it's inspired me to keep doing game development"],
   extra: ["Tools Used: Unity"]
 }
@@ -85,6 +84,13 @@ const vtuber = {
   tdlr:["Coming Soon"],
   summary:["Yes, this is a vtuber. Stop judging"],
   extra: ["Tools: Live2D, Clip Studio Paint"],
+}
+
+const heist = {
+  name: "Smash and Stab",
+  tdlr: ["What I'm currently working on", "Multiplayer heist game where you backstab your friends", "Designed the game's infrastructure", "Responsible for all animations"],
+  summary: ["Smash and Stab (Tentative) is a multiplayer heist game where you rob rich socialites with your comically incompetent crew. Each player has unique objectives that often conflict with one another.", "I am responsible for designing and implementing the game's infrastructure, based on our original tabletop prototype. Additionally, I create all in-game animations and contribute to some social media posts.", "Static Pole Studios is also developing a netcode platform on which this game will run. Our ultimate goal is to simplify multiplayer game development by providing an accessible platform for everyone."],
+  extra: ["Tools: Unity, Live2D, Clip Studio Paint, Adobe Premiere"]
 }
 
 

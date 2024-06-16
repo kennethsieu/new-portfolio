@@ -47,7 +47,7 @@ main {
     color: #6C6C6C;
 }
 
-#links {
+.links {
     font-size: 1.3vw;
     position: absolute;
     bottom: 0;
@@ -142,32 +142,29 @@ main {
 .projecttabs {
     display: flex;
     justify-content: space-evenly;
+    height: 5vh;
+    font-size: 1.5vw;
+    cursor: pointer;
 }
 
 .projecttab {
     width: 33%;
-    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5vw;
     outline:0.01em solid #D9D9D9;
     color: #D9D9D9;
     border-radius: 1vw 1vw 0px 0px;
-    cursor: pointer;
 }
 
 .projecttabactive {
     width: 34%;
-    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5vw;
     outline:0.01em solid #D9D9D9;
     border-radius: 1vw 1vw 0px 0px;
     background-color: #D9D9D9;
-    cursor: pointer;
 }
 
 .projectmain {
@@ -341,3 +338,140 @@ a {
     border-radius: 2vw;
     outline:0.01em solid #D9D9D9;
 }
+
+.intro-mobile {
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    display: none;
+    margin-bottom: 3vh;
+}
+
+.selfie-crop {
+    width: 30%;
+}
+
+.hello-mobile {
+    margin-top: 1vh;
+    font-size: 10vw;
+    font-weight: 550;
+} 
+
+#des-mobile {
+    margin-top: 3vh;
+    font-size: 5vw;
+    color: #6C6C6C;
+}
+
+.links-mobile {
+    margin-top: 1vh;
+    font-size: 3.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        display: none;
+    }
+
+    .intro-mobile {
+        display: block;
+    }
+
+    .content {
+        width: 80vw;
+    }
+
+    .contentbody {
+        min-height: 30vh;
+    }
+
+    .tabs {
+        margin-bottom: 2vw;
+    }
+
+    .tab {
+        height: 4vh;
+    }
+
+    .tab_name {
+        font-size: 4vw;
+        width: 40%;
+    }
+
+    .tw {
+        margin-top: 2vh;
+        height: 8vh;
+        margin-bottom: 1vh;
+    }
+
+    .projecttabs {
+        height: 3vh;
+        font-size: 3vw;
+    }
+
+    .projectmain {
+        font-size: 2.5vw;
+        margin-bottom: 1vh;
+    }
+
+    iframe {
+        height: 20vh;
+    }
+
+    .spy {
+        margin-top: 2vh;
+        height: 8vh;
+        margin-bottom: 1vh;
+    }
+
+    .glade {
+        margin-top: 2vh;
+        height: 8vh;
+        margin-bottom: 1vh;
+    }
+
+    .title {
+        height: 5vh;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        font-size: 5vw;
+    }
+
+    .searchtitle {
+        font-size: 4vw;
+    }
+
+    .tags {
+        font-size: 2vw;
+    }
+
+    .search {
+        margin-bottom: 1vh;
+    }
+
+    .tool {
+        font-size: 3vw;
+    }
+
+    .icon2 {
+        width: 15%;
+    }
+
+    .about {
+        margin-top: 3vh;
+        width: 80%;
+    }
+
+    .about-title {
+        font-size: 8vw;
+        margin-bottom: 1vh;
+    }
+
+    .about-text {
+        font-size: 3vw;
+    }
+
+    .mainlink {
+        font-size: 3vw;
+    }
+  }

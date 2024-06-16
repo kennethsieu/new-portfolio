@@ -10,6 +10,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 //import images and rename them they will cause error lines :/
 import selfie from "../images/selfie.jpg"
+import crop from "../images/selfie-crop.png"
 import code_c from "../images/code_color.png"
 import paint_c from "../images/paint_color.png"
 import tool_c from "../images/tool_color.png"
@@ -44,10 +45,22 @@ const IndexPage: React.FC<PageProps> = () => {
             <div id = "des">
               I make {text}<Cursor/>
             </div>
-            <div id = "links">
+            <div className = "links">
               <Link to="/about">About</Link> · <a href="mailto: kennethsieu14@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/kenneth-sieu/" target="_blank">LinkedIn</a> · <a href= {resume} target="_blank">Resume</a>
             </div>
           </div>
+        </div>
+        <div className="intro-mobile">
+          <img className="selfie-crop" src = {crop}/>
+          <div className = "hello-mobile">
+              Hi, I'm Kenneth
+            </div>
+            <div id = "des-mobile">
+              I make {text}<Cursor/>
+            </div>
+            <div className = "links-mobile">
+              <Link to="/about">About</Link> · <a href="mailto: kennethsieu14@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/kenneth-sieu/" target="_blank">LinkedIn</a> · <a href= {resume} target="_blank">Resume</a>
+            </div>
         </div>
         <div className="content">
           <div className="tabs">
