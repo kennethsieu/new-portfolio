@@ -10,6 +10,7 @@ import tool_c from "../images/tool_color.png"
 import tmgif from "../images/tmgif.gif"
 import spy from "../images/spy.gif"
 import glade from "../images/glade.gif"
+import illwin from "../images/illwin.gif"
 
 
 export function CSDisplay() {
@@ -34,6 +35,8 @@ export function ArtDisplay() {
         <React.Fragment>
             {ProjectDisplay(ink)}
             <iframe src="https://www.youtube.com/embed/BCw64MGOHVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            {ProjectDisplay(vtuber)}
+            <img className = "project-img" src={illwin}/>
         </React.Fragment>
     )
 }
@@ -76,6 +79,14 @@ const ink = {
   summary: ["'Ink' is an animation created using Maya for UCBugg, a student-run 3D animation class at UC Berkeley. I took charge of modeling, rigging, skinning, and animating the monster. Additionally, I handled both the camera control and post-production editing.", "My partner, Cynthia Xiong, pitched the concept and took responsibility for modeling and skinning all other assets. Additionally, she handled the coloring, shading, and lighting of every asset."],
   extra: ["Tools: Maya, Adobe Premiere"]
 }
+
+const vtuber = {
+  name: "Unrealeased Live2D Project",
+  tdlr:["Coming Soon"],
+  summary:["Yes, this is a vtuber. Stop judging"],
+  extra: ["Tools: Live2D, Clip Studio Paint"],
+}
+
 
 interface Project {
     name: string

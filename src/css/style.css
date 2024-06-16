@@ -335,3 +335,9 @@ a {
 .mainlink {
     font-size: 2vw;
 }
+
+.project-img {
+    width: 100%;
+    border-radius: 2vw;
+    outline:0.01em solid #D9D9D9;
+}
