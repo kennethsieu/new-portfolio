@@ -474,4 +474,8 @@ a {
     .mainlink {
         font-size: 3vw;
     }
+
+    .noresults {
+        font-size: 3vw;
+    }
   }

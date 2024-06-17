@@ -79,7 +79,7 @@ const tools =  [
         cs: true,
         art: false,
         cert: true,
-        freq: true,
+        freq: false,
     },
     {
         name: "Figma",
@@ -127,7 +127,7 @@ const tools =  [
         cs: true,
         art: false,
         cert: true,
-        freq: true,
+        freq: false,
     },
     {
         name: "HTML",
