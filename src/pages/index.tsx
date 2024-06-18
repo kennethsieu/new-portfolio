@@ -46,7 +46,7 @@ const IndexPage: React.FC<PageProps> = () => {
               I make {text}<Cursor/>
             </div>
             <div className = "links">
-              <Link to="/about">About</Link> · <a href="mailto: kennethsieu14@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/kenneth-sieu/" target="_blank">LinkedIn</a> · <a href= {resume} target="_blank">Resume</a>
+              <Link to="/about">About</Link> · <a href="mailto: kennethsieu14@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/kennethsieu/" target="_blank">LinkedIn</a> · <a href= {resume} target="_blank">Resume</a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ const IndexPage: React.FC<PageProps> = () => {
               I make {text}<Cursor/>
             </div>
             <div className = "links-mobile">
-              <Link to="/about">About</Link> · <a href="mailto: kennethsieu14@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/kenneth-sieu/" target="_blank">LinkedIn</a> · <a href= {resume} target="_blank">Resume</a>
+              <Link to="/about">About</Link> · <a href="mailto: kennethsieu14@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/kennethsieu/" target="_blank">LinkedIn</a> · <a href= {resume} target="_blank">Resume</a>
             </div>
         </div>
         <div className="content">
