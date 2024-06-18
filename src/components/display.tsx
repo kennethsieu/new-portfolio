@@ -120,9 +120,9 @@ interface Project {
         {project.name != "" && (<div className="title"> {project.name} </div>)}
         <div className="projectbody">
           <div className="projecttabs">
-            <div className= {tab === 0 ? "projecttabactive" : "projecttab"} onClick={() => setTab(0)}> td;lr </div>
+            <div className= {tab === 0 ? "projecttabactive" : "projecttab"} onClick={() => setTab(0)}> tl;dr </div>
             <div className= {tab === 1 ? "projecttabactive" : "projecttab"} onClick={() => setTab(1)}> full </div>
-            <div className= {tab === 2 ? "projecttabactive" : "projecttab"} onClick={() => setTab(2)}> extra </div>
+            <div className= {tab === 2 ? "projecttabactive" : "projecttab"} onClick={() => setTab(2)}> tools </div>
           </div>
           <div className="projectmain">
             <div className={tab === 0 ? "content-active tab-content" : "tab-content"}>
@@ -158,9 +158,9 @@ interface Project {
         {project.name != "" && (<div className="title"> {project.name} </div>)}
         <div className="projectbody">
           <div className="projecttabs">
-            <div className= {tab === 0 ? "projecttabactive" : "projecttab"} onClick={() => setTab(0)}> td;lr </div>
-            <div className= {tab === 1 ? "projecttabactive" : "projecttab"} onClick={() => setTab(1)}> full </div>
-            <div className= {tab === 2 ? "projecttabactive" : "projecttab"} onClick={() => setTab(2)}> extra </div>
+            <div className= {tab === 0 ? "projecttabactive" : "projecttab"} onClick={() => setTab(0)}> tl;dr </div>
+            <div className= {tab === 1 ? "projecttabactive" : "projecttab"} onClick={() => setTab(1)}> summary </div>
+            <div className= {tab === 2 ? "projecttabactive" : "projecttab"} onClick={() => setTab(2)}> tools </div>
           </div>
           <div className="projectmain">
             <div className={tab === 0 ? "content-active tab-content" : "tab-content"}>
@@ -197,9 +197,9 @@ interface Project {
         {project.name != "" && (<div className="title"> {project.name} </div>)}
         <div className="projectbody">
           <div className="projecttabs">
-            <div className= {tab === 0 ? "projecttabactive" : "projecttab"} onClick={() => setTab(0)}> td;lr </div>
-            <div className= {tab === 1 ? "projecttabactive" : "projecttab"} onClick={() => setTab(1)}> full </div>
-            <div className= {tab === 2 ? "projecttabactive" : "projecttab"} onClick={() => setTab(2)}> extra </div>
+            <div className= {tab === 0 ? "projecttabactive" : "projecttab"} onClick={() => setTab(0)}> tl;dr </div>
+            <div className= {tab === 1 ? "projecttabactive" : "projecttab"} onClick={() => setTab(1)}> summary </div>
+            <div className= {tab === 2 ? "projecttabactive" : "projecttab"} onClick={() => setTab(2)}> tools </div>
           </div>
           <div className="projectmain">
             <div className={tab === 0 ? "content-active tab-content" : "tab-content"}>
